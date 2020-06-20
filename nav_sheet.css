@@ -1,0 +1,51 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: Tomato;
+  border: 3px solid BlanchedAlmond;
+  border-left: 4px;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  border-right: 2px solid BlanchedAlmond;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 15px 30.6px;
+  color: white;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: SlateGrey;
+  color: black;
+}
+
+.active {
+  background-color: MediumSeaGreen;
+  color: black;
+}
+
+h1.logo {
+  font-family: 'Arial Black', Gadget, sans-serif;
+  float: left;
+  padding: 2px;
+  margin: 0;
+  font-size: 1.95em;
+  letter-spacing: 2px;
+  display: inline-block;
+  text-align: center;
+  background-color: CornflowerBlue;
+  border: 3px solid BlanchedAlmond;
+  box-sizing: border-box;
+  overflow: hidden;
+}
